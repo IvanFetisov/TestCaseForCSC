@@ -14,6 +14,7 @@ import java.nio.file.Paths;
 import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
+import java.util.Set;
 
 public class Main {
 
@@ -23,11 +24,7 @@ public class Main {
         System.out.println("Введите путь до файла, если он находится в проекте - его название");
         File xml = new File(new Scanner(System.in).nextLine());// при желании можно использовать относительный путь, а не абсолютный
         Map<String, Object> objectTree = xmlMapper.readValue(xml, new TypeReference<Map<String, Object>>() {
-
         });
-        objectTree.remove("TechRegs");
-
-
         try {
             File yamlFile = new File("result.yaml");
             Charset charset = StandardCharsets.UTF_8;
@@ -47,7 +44,8 @@ public class Main {
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("result.yaml"));
         String dump = yaml.dump(objectTree);
 
-        String refactorTechRegs = dump.replace("TechRegs","Null");
+        String refactorTechRegs = dump.replace("TechRegs: {TechReg: Технический регламент на табачную продукцию (Федеральный\n" +
+                "          Закон № 268-ФЗ от 22 декабря 2008г.), TechRegInfo: null}","");
         bufferedWriter.write(refactorTechRegs);
         bufferedWriter.close();
     }
