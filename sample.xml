@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+<fsa:ResponseFsaType xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:tns='urn://x-artefact-rosaccreditation-ru/rdc/commons/1.0.2' xmlns:fsa='urn://x-artefact-rosaccreditation-ru/rdc/1.0.2'>
+    <fsa:RdcTr>
+        <tns:Type>TrRf</tns:Type>
+        <tns:Requisites>
+            <tns:Status>Active</tns:Status>
+            <tns:Section>Tr</tns:Section>
+            <tns:Number>Д-RU.СС10.В.00001</tns:Number>
+            <tns:DateReg>2015-12-20T00:00:00</tns:DateReg>
+            <tns:DateExpiry>2018-12-18T00:00:00</tns:DateExpiry>
+            <tns:NoExpiry xsi:nil="true" />
+            <tns:BaseDeclaration>
+                <tns:Documents>Заявление № 1/15 от 20.12.2015 Декларация о соответствии Копия свидетельства о регистрации ОГРН</tns:Documents>
+                <tns:Schema>1д</tns:Schema>
+                <tns:Base>
+                    <tns:string>1. Протокол испытаний № 1 от 14.12.2015, выдан Испытательной лабораторией «Табак лаборатория-Тест» Закрытого акционерного общества «Табак», № POCC RU.0001.22АА11</tns:string>
+                </tns:Base>
+                <tns:Laboratory>
+                    <tns:NumberReg>POCC RU.0001.22АА11</tns:NumberReg>
+                    <tns:Name>Испытательная лаборатория «Табак лаборатория-Тест»</tns:Name>
+                    <tns:DateReg>2014-10-04T00:00:00</tns:DateReg>
+                    <tns:DateExpiry>2018-10-04T00:00:00</tns:DateExpiry>
+                    <tns:Document xsi:nil="true" />
+                    <tns:Info xsi:nil="true" />
+                </tns:Laboratory>
+            </tns:BaseDeclaration>
+            <tns:Discontinued xsi:nil="true" />
+        </tns:Requisites>
+        <tns:Applicant>
+            <tns:ApplicantType>UL</tns:ApplicantType>
+            <tns:DeclarantType>Manufacturer</tns:DeclarantType>
+        </tns:Applicant>
+        <tns:ApplicantUl>
+            <tns:OrganForm>Закрытое акционерное общество</tns:OrganForm>
+            <tns:FullName>Закрытое акционерное общество «Табак»</tns:FullName>
+            <tns:ShortName xsi:nil="true" />
+            <tns:Head>Табаков Валентин Семенович</tns:Head>
+            <tns:HeadPost>Руководителя</tns:HeadPost>
+            <tns:HeadText>Табакова Валентина Семеновича</tns:HeadText>
+            <tns:Address>
+                <tns:string>190000, РОССИЯ, Ленинградская область, Ломоносовский район, производственная зона "Горелово", квартал 1, Волхонское шоссе, 1</tns:string>
+            </tns:Address>
+            <tns:AddressActual>190000, РОССИЯ, Ленинградская область, Ломоносовский район, производственная зона "Горелово", квартал 1, Волхонское шоссе, 1</tns:AddressActual>
+            <tns:Phone>7(812)7000000</tns:Phone>
+            <tns:Fax>7(812)7000001</tns:Fax>
+            <tns:Email>TabakRU@mail.ru</tns:Email>
+            <tns:Organ xsi:nil="true" />
+            <tns:Date xsi:nil="true" />
+            <tns:Ogrn>1111111111111</tns:Ogrn>
+            <tns:Inn>1110001111</tns:Inn>
+            <tns:RegInfo xsi:nil="true" />
+            <tns:Contract xsi:nil="true" />
+        </tns:ApplicantUl>
+        <tns:ApplicantFl xsi:nil="true" />
+        <tns:ApplicantAl xsi:nil="true" />
+        <tns:ApplicantAu xsi:nil="true" />
+        <tns:Manufacturer>
+            <tns:Type>Um</tns:Type>
+            <tns:ManufacturerUl>
+                <tns:OrganForm>Закрытое акционерное общество</tns:OrganForm>
+                <tns:FullName>Закрытое акционерное общество «Табак»</tns:FullName>
+                <tns:Address>
+                    <tns:string>190000, РОССИЯ, Ленинградская область, Ломоносовский район, производственная зона "Горелово", квартал 1, Волхонское шоссе, 1</tns:string>
+                </tns:Address>
+                <tns:AddressActual>190000, РОССИЯ, Ленинградская область, Ломоносовский район, производственная зона "Горелово", квартал 1, Волхонское шоссе, 1</tns:AddressActual>
+                <tns:Phone>7(812)7000000</tns:Phone>
+                <tns:Fax>7(812)7000001</tns:Fax>
+                <tns:Email>TabakRU@mail.ru</tns:Email>
+                <tns:Organ xsi:nil="true" />
+                <tns:Date xsi:nil="true" />
+                <tns:Ogrn>1111111111111</tns:Ogrn>
+                <tns:Inn>1110001111</tns:Inn>
+            </tns:ManufacturerUl>
+            <tns:ManufacturerAl xsi:nil="true" />
+            <tns:ManufacturerFl xsi:nil="true" />
+        </tns:Manufacturer>
+        <tns:Product>
+            <tns:DeclareType>Series</tns:DeclareType>
+            <tns:DcOriginType>Domestic</tns:DcOriginType>
+            <tns:Name>Сигареты с фильтром "PR"</tns:Name>
+            <tns:ProductInfo>смола: 6 мг/сиг; никотин: 0,5 мг/сиг; СО: 7 мг/сиг</tns:ProductInfo>
+            <tns:Okp>919340</tns:Okp>
+            <tns:OkpdText xsi:nil="true" />
+            <tns:Standart xsi:nil="true" />
+            <tns:SizeNumber>100000 пачек</tns:SizeNumber>
+            <tns:DetailsShippingDocumentation xsi:nil="true" />
+            <tns:ContractInfo xsi:nil="true" />
+            <tns:Info>Приказ Министерства здравоохранения и социального развития Российской Федерации от 05 Мая 2012 г. N 490н "Об утверждении предупредительных надписей о вреде курения, сопровождаемых рисунками"</tns:Info>
+            <tns:PlaceMark xsi:nil="true" />
+            <tns:TechRegs>
+                <tns:TechReg>Технический регламент на табачную продукцию (Федеральный Закон № 268-ФЗ от 22 декабря 2008г.)</tns:TechReg>
+                <tns:TechRegInfo xsi:nil="true" />
+            </tns:TechRegs>
+        </tns:Product>
+        <tns:DeclareAddInfo xsi:nil="true" />
+        <tns:CertificationOrgan>
+            <tns:FullName>Орган по сертификации продукции и услуг Общества с ограниченной ответственностью "Тест"</tns:FullName>
+            <tns:Number>РОСС RU.0001.10СП00</tns:Number>
+            <tns:DateReg>2014-10-10T00:00:00</tns:DateReg>
+            <tns:Organ>Росаккредитация</tns:Organ>
+            <tns:Head>Петров Иван Сидорович</tns:Head>
+            <tns:AddressLegal>190000, Россия, город Санкт-Петербург, ул. 10-ая Красноармейская, дом 100, Литер А</tns:AddressLegal>
+            <tns:Address>190000, Россия, город Санкт-Петербург, ул. 10-ая Красноармейская, дом 100, Литер А</tns:Address>
+            <tns:Phone>7(812)3000000</tns:Phone>
+            <tns:Fax>7(812)3000001</tns:Fax>
+            <tns:Email>StPt-Test@yandex.ru</tns:Email>
+            <tns:Ogrn xsi:nil="true" />
+            <tns:Experts>
+                <tns:Surname>Медведев</tns:Surname>
+                <tns:Name>Михаил</tns:Name>
+                <tns:Patronymic>Александрович</tns:Patronymic>
+            </tns:Experts>
+        </tns:CertificationOrgan>
+    </fsa:RdcTr>
+</fsa:ResponseFsaType>
+</root>
